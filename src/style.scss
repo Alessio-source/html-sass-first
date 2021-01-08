@@ -1,0 +1,41 @@
+$colorePrimario: #bf3e17;
+$coloreSecondario: #999DDD;
+$small: 5px;
+$zero: 0;
+
+* {
+  box-sizing: border-box;
+  margin: $zero;
+  padding: $zero;
+}
+
+h1 {
+  margin: $small;
+  color: $colorePrimario;
+}
+
+p {
+  margin: $small;
+  color: $colorePrimario;
+}
+
+button {
+  margin: $small;
+  border-radius: $small;
+  border: $zero;
+  padding: $small;
+  color: $colorePrimario;
+  background-color: $coloreSecondario;
+}
+
+ul {
+  margin: $small;
+  padding: $small;
+  border-radius: $small;
+  list-style: none;
+  background-color: $coloreSecondario;
+}
+
+li {
+  color: $colorePrimario;
+}
